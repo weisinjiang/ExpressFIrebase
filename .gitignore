@@ -2,3 +2,6 @@
 node_modules
 .env
 .firebase
+
+#dont commit firebase config
+express_firebase/web/secrets.js
