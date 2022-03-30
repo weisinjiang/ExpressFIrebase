@@ -6,7 +6,7 @@ const express = require("express");
 const app = express()
 const userRouter = require("./routes/users");
 const { response } = require("express");
-app.use("/addNewUser", userRouter);
+app.use(userRouter);
 
 
 
